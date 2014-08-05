@@ -30,7 +30,7 @@ db/*.sqlite3
 /config/config.yml
 /config/database.yml
 /coverage.data
-/coverage/
+#/coverage/
 /db/*.javadb/
 /db/*.sqlite3
 /doc/api/
@@ -84,7 +84,7 @@ capybara-*.html
 /tmp
 /db/*.sqlite3
 /public/system
-/coverage/
+#/coverage/
 /spec/tmp
 **.orig
 rerun.txt
