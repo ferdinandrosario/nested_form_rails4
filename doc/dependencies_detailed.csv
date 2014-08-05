@@ -1,0 +1,294 @@
+actionmailer,4.1.1,MIT,"Email composition, delivery, and receiving framework (part of Rails).","Email on Rails. Compose, deliver, receive, and test emails using the familiar controller/view pattern. First-class support for multipart email and attachments."
+actionpack,4.1.1,MIT,Web-flow and rendering framework putting the VC in MVC (part of Rails).,"Web apps on Rails. Simple, battle-tested conventions for building and testing MVC web applications. Works with any Rack-compatible server."
+actionview,4.1.1,MIT,Rendering framework putting the V in MVC (part of Rails).,"Simple, battle-tested conventions and helpers for building web pages."
+activemodel,4.1.1,MIT,A toolkit for building modeling frameworks (part of Rails).,"A toolkit for building modeling frameworks like Active Record. Rich support for attributes, callbacks, validations, serialization, internationalization, and testing."
+activerecord,4.1.1,MIT,Object-relational mapper framework (part of Rails).,"Databases on Rails. Build a persistent domain model by mapping database tables to Ruby classes. Strong conventions for associations, validations, aggregations, migrations, and testing come baked-in."
+activesupport,4.1.1,MIT,A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.,"A toolkit of support libraries and Ruby core extensions extracted from the Rails framework. Rich support for multibyte strings, internationalization, time zones, and testing."
+addressable,2.3.6,Apache 2.0,URI Implementation,"Addressable is a replacement for the URI implementation that is part of
+Ruby's standard library. It more closely conforms to the relevant RFCs and
+adds support for IRIs and URI templates."
+arel,5.0.1.20140414130214,MIT,Arel is a SQL AST manager for Ruby,"Arel is a SQL AST manager for Ruby. It
+
+1. Simplifies the generation of complex SQL queries
+2. Adapts to various RDBMSes
+
+It is intended to be a framework framework; that is, you can build your own ORM
+with it, focusing on innovative object and collection modeling as opposed to
+database compatibility and query generation."
+better_errors,1.1.0,MIT,Better error page for Rails and other Rack apps,"Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames."
+binding_of_caller,0.7.2,MIT,Retrieve the binding of a method's caller. Can also retrieve bindings even further up the stack.,Retrieve the binding of a method's caller. Can also retrieve bindings even further up the stack.
+bootstrap-sass,3.1.1.1,MIT,"Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass",""
+builder,3.2.2,MIT,Builders for MarkUp.,"Builder provides a number of builder objects that make creating structured data
+simple to do.  Currently the following builder objects are supported:
+
+* XML Markup
+* XML Events"
+bundler,1.6.2,MIT,The best way to manage your application's dependencies,"Bundler manages an application's dependencies through its entire life, across many machines, systematically and repeatably"
+capistrano,3.2.1,MIT,Capistrano - Welcome to easy deployment with Ruby over SSH,"Capistrano is a utility and framework for executing commands in parallel on multiple remote machines, via SSH."
+capybara,2.3.0,MIT,"Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb",Capybara is an integration testing tool for rack based web applications. It simulates how a user would interact with a website
+childprocess,0.5.3,MIT,This gem aims at being a simple and reliable solution for controlling external programs running in the background on any Ruby / OS combination.,This gem aims at being a simple and reliable solution for controlling external programs running in the background on any Ruby / OS combination.
+coderay,1.1.0,MIT,Fast syntax highlighting for selected languages.,"Fast and easy syntax highlighting for selected languages, written in Ruby. Comes with RedCloth integration and LOC counter."
+coffee-rails,4.0.1,MIT,CoffeeScript adapter for the Rails asset pipeline.,CoffeeScript adapter for the Rails asset pipeline.
+coffee-script,2.2.0,MIT,Ruby CoffeeScript Compiler,Ruby CoffeeScript is a bridge to the JS CoffeeScript compiler.
+coffee-script-source,1.7.0,MIT,The CoffeeScript Compiler,"CoffeeScript is a little language that compiles into JavaScript.
+    Underneath all of those embarrassing braces and semicolons,
+    JavaScript has always had a gorgeous object model at its heart.
+    CoffeeScript is an attempt to expose the good parts of JavaScript
+    in a simple way."
+colorize,0.7.3,GPL-2,Add color methods to String class,"Ruby String class extension. Adds methods to set text color, background color and, text effects on ruby console and command line output, using ANSI escape sequences."
+database_cleaner,1.3.0,MIT,Strategies for cleaning databases.  Can be used to ensure a clean state for testing.,Strategies for cleaning databases.  Can be used to ensure a clean state for testing.
+debug_inspector,0.0.2,MIT,A Ruby wrapper for the MRI 2.0 debug_inspector API,A Ruby wrapper for the MRI 2.0 debug_inspector API
+diff-lcs,1.2.5,"multiple licenses: MIT, Perl Artistic v2, GNU GPL v2",Diff::LCS computes the difference between two Enumerable sequences using the McIlroy-Hunt longest common subsequence (LCS) algorithm,"Diff::LCS computes the difference between two Enumerable sequences using the
+McIlroy-Hunt longest common subsequence (LCS) algorithm. It includes utilities
+to create a simple HTML diff output format and a standard diff-like tool.
+
+This is release 1.2.4, fixing a bug introduced after diff-lcs 1.1.3 that did
+not properly prune common sequences at the beginning of a comparison set.
+Thanks to Paul Kunysch for fixing this issue.
+
+Coincident with the release of diff-lcs 1.2.3, we reported an issue with
+Rubinius in 1.9 mode
+({rubinius/rubinius#2268}[https://github.com/rubinius/rubinius/issues/2268]).
+We are happy to report that this issue has been resolved."
+erubis,2.7.0,MIT,a fast and extensible eRuby implementation which supports multi-language,"Erubis is an implementation of eRuby and has the following features:
+
+  * Very fast, almost three times faster than ERB and about 10% faster than eruby.
+  * Multi-language support (Ruby/PHP/C/Java/Scheme/Perl/Javascript)
+  * Auto escaping support
+  * Auto trimming spaces around '<% %>'
+  * Embedded pattern changeable (default '<% %>')
+  * Enable to handle Processing Instructions (PI) as embedded pattern (ex. '<?rb ... ?>')
+  * Context object available and easy to combine eRuby template with YAML datafile
+  * Print statement available
+  * Easy to extend and customize in subclass
+  * Ruby on Rails support"
+execjs,2.1.0,MIT,Run JavaScript code from Ruby,ExecJS lets you run JavaScript code from Ruby.
+factory_girl,4.4.0,MIT,factory_girl provides a framework and DSL for defining and using model instance factories.,"factory_girl provides a framework and DSL for defining and
+                      using factories - less error-prone, more explicit, and
+                      all-around easier to work with than fixtures."
+factory_girl_rails,4.4.1,MIT,factory_girl_rails provides integration between factory_girl and rails 3,"factory_girl_rails provides integration between
+    factory_girl and rails 3 (currently just automatic factory definition
+    loading)"
+faker,1.3.0,MIT,Easily generate fake data,"Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc."
+ffi,1.9.3,BSD,Ruby FFI,Ruby FFI library
+high_voltage,2.1.0,MIT,Simple static page rendering controller,Fire in the disco. Fire in the ... taco bell.
+hike,1.2.3,MIT,Find files in a set of paths,A Ruby library for finding files in a set of paths.
+httparty,0.13.1,MIT,"Makes http fun! Also, makes consuming restful web services dead easy.","Makes http fun! Also, makes consuming restful web services dead easy."
+i18n,0.6.9,MIT,New wave Internationalization support for Ruby,New wave Internationalization support for Ruby.
+jbuilder,2.0.7,MIT,Create JSON structures via a Builder-style DSL,""
+jquery-rails,3.1.0,MIT,Use jQuery with Rails 3,This gem provides jQuery and the jQuery-ujs driver for your Rails 3 application.
+json,1.8.1,other,This json is bundled with Ruby,""
+launchy,2.4.2,ISC,Launchy is helper class for launching cross-platform applications in a fire and forget manner.,"Launchy is helper class for launching cross-platform applications in a fire and forget manner. There are application concepts (browser, email client, etc) that are common across all platforms, and they may be launched differently on each platform. Launchy is here to make a common approach to launching external application from within ruby programs."
+license_finder,1.1.0,MIT,Audit the OSS licenses of your application's dependencies.,"Do you know the licenses of all your application's dependencies? What open source software licenses will your business accept?
+
+  LicenseFinder culls your package managers, detects the licenses of the packages in them, and gives you a report that you can act on. If you already know
+  what licenses your business is comfortable with, you can whitelist them, leaving you with an action report of only those dependencies that have
+  licenses that fall outside of the whitelist."
+mail,2.5.4,MIT,"Mail provides a nice Ruby DSL for making, sending and reading emails.",A really Ruby Mail handler.
+mime-types,1.25.1,"multiple licenses: MIT, Artistic 2.0, GPL-2",This library allows for the identification of a file's likely MIME content type,"This library allows for the identification of a file's likely MIME content
+type. This is release 1.25.1, fixing an issue with priority comparison for
+mime-types 1.x. The current release is 2.0, which only supports Ruby 1.9 or
+later.
+
+Release 1.25.1 contains all features of 1.25, including the experimental
+caching and lazy loading functionality. The caching and lazy loading features
+were initially implemented by Greg Brockman (gdb). As these features are
+experimental, they are disabled by default and must be enabled through the use
+of environment variables. The cache is invalidated on a per-version basis; the
+cache for version 1.25 will not be reused for any later version.
+
+To use lazy loading, set the environment variable +RUBY_MIME_TYPES_LAZY_LOAD+
+to any value other than 'false'. When using lazy loading, the initial startup
+of MIME::Types is around 12–25× faster than normal startup (on my system,
+normal startup is about 90 ms; lazy startup is about 4 ms). This isn't
+generally useful, however, as the MIME::Types database has not been loaded.
+Lazy startup and load is just *slightly* faster—around 1 ms. The real advantage
+comes from using the cache.
+
+To enable the cache, set the environment variable +RUBY_MIME_TYPES_CACHE+ to a
+filename where MIME::Types will have read-write access. The first time a new
+version of MIME::Types is run using this file, it will be created, taking a
+little longer than normal. Subsequent loads using the same cache file will be
+approximately 3½× faster (25 ms) than normal loads. This can be combined with
++RUBY_MIME_TYPES_LAZY_LOAD+, but this is *not* recommended in a multithreaded
+or multiprocess environment where all threads or processes will be using the
+same cache file.
+
+As the caching interface is still experimental, the only values cached are the
+default MIME::Types database, not any custom MIME::Types added by users.
+
+MIME types are used in MIME-compliant communications, as in e-mail or HTTP
+traffic, to indicate the type of content which is transmitted. MIME::Types
+provides the ability for detailed information about MIME entities (provided as
+a set of MIME::Type objects) to be determined and used programmatically. There
+are many types defined by RFCs and vendors, so the list is long but not
+complete; don't hesitate to ask to add additional information. This library
+follows the IANA collection of MIME types (see below for reference).
+
+MIME::Types for Ruby was originally based on MIME::Types for Perl by Mark
+Overmeer, copyright 2001 - 2009.
+
+MIME::Types is built to conform to the MIME types of RFCs 2045 and 2231. It
+tracks the {IANA registry}[http://www.iana.org/assignments/media-types/]
+({ftp}[ftp://ftp.iana.org/assignments/media-types]) with some unofficial types
+added from the {LTSW collection}[http://www.ltsw.se/knbase/internet/mime.htp]
+and added by the users of MIME::Types."
+mini_portile,0.6.0,MIT,Simplistic port-like solution for developers,Simplistic port-like solution for developers. It provides a standard and simplified way to compile against dependency libraries without messing up your system.
+minitest,5.3.4,MIT,"minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking","minitest provides a complete suite of testing facilities supporting
+TDD, BDD, mocking, and benchmarking.
+
+    ""I had a class with Jim Weirich on testing last week and we were
+     allowed to choose our testing frameworks. Kirk Haines and I were
+     paired up and we cracked open the code for a few test
+     frameworks...
+
+     I MUST say that minitest is *very* readable / understandable
+     compared to the 'other two' options we looked at. Nicely done and
+     thank you for helping us keep our mental sanity.""
+
+    -- Wayne E. Seguin
+
+minitest/unit is a small and incredibly fast unit testing framework.
+It provides a rich set of assertions to make your tests clean and
+readable.
+
+minitest/spec is a functionally complete spec engine. It hooks onto
+minitest/unit and seamlessly bridges test assertions over to spec
+expectations.
+
+minitest/benchmark is an awesome way to assert the performance of your
+algorithms in a repeatable manner. Now you can assert that your newb
+co-worker doesn't replace your linear algorithm with an exponential
+one!
+
+minitest/mock by Steven Baker, is a beautifully tiny mock (and stub)
+object framework.
+
+minitest/pride shows pride in testing and adds coloring to your test
+output. I guess it is an example of how to write IO pipes too. :P
+
+minitest/unit is meant to have a clean implementation for language
+implementors that need a minimal set of methods to bootstrap a working
+test suite. For example, there is no magic involved for test-case
+discovery.
+
+    ""Again, I can't praise enough the idea of a testing/specing
+     framework that I can actually read in full in one sitting!""
+
+    -- Piotr Szotkowski
+
+Comparing to rspec:
+
+    rspec is a testing DSL. minitest is ruby.
+
+    -- Adam Hawkins, ""Bow Before MiniTest""
+
+minitest doesn't reinvent anything that ruby already provides, like:
+classes, modules, inheritance, methods. This means you only have to
+learn ruby to use minitest and all of your regular OO practices like
+extract-method refactorings still apply."
+multi_json,1.10.1,MIT,A common interface to multiple JSON libraries.,"A common interface to multiple JSON libraries, including Oj, Yajl, the JSON gem (with C-extensions), the pure-Ruby JSON gem, NSJSONSerialization, gson.rb, JrJackson, and OkJson."
+multi_xml,0.5.5,MIT,A generic swappable back-end for XML parsing,"Provides swappable XML backends utilizing LibXML, Nokogiri, Ox, or REXML."
+net-scp,1.2.1,MIT,A pure Ruby implementation of the SCP client protocol,A pure Ruby implementation of the SCP client protocol
+net-ssh,2.9.1,MIT,Net::SSH: a pure-Ruby implementation of the SSH2 client protocol.,"Net::SSH: a pure-Ruby implementation of the SSH2 client protocol. It allows you to write programs that invoke and interact with processes on remote servers, via SSH2."
+nokogiri,1.6.2.1,MIT,"Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser","Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser.  Among Nokogiri's
+many features is the ability to search documents via XPath or CSS3 selectors.
+
+XML is like violence - if it doesn’t solve your problems, you are not using
+enough of it."
+pg,0.17.1,"multiple licenses: BSD, ruby, GPL",Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/],"Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/].
+
+It works with {PostgreSQL 8.4 and later}[http://www.postgresql.org/support/versioning/].
+
+A small example usage:
+
+  #!/usr/bin/env ruby
+
+  require 'pg'
+
+  # Output a table of current connections to the DB
+  conn = PG.connect( dbname: 'sales' )
+  conn.exec( ""SELECT * FROM pg_stat_activity"" ) do |result|
+    puts ""     PID | User             | Query""
+  result.each do |row|
+      puts "" %7d | %-16s | %s "" %
+        row.values_at('procpid', 'usename', 'current_query')
+    end
+  end"
+polyglot,0.3.5,MIT,Augment 'require' to load non-Ruby file types,"The Polyglot library allows a Ruby module to register a loader
+for the file type associated with a filename extension, and it
+augments 'require' to find and load matching files."
+quiet_assets,1.0.2,other,Turn off rails assets log.,Quiet assets turn off rails assets log.
+rack,1.5.2,MIT,a modular Ruby webserver interface,"Rack provides a minimal, modular and adaptable interface for developing
+web applications in Ruby.  By wrapping HTTP requests and responses in
+the simplest way possible, it unifies and distills the API for web
+servers, web frameworks, and software in between (the so-called
+middleware) into a single method call.
+
+Also see http://rack.github.com/."
+rack-test,0.6.2,MIT,Simple testing API built on Rack,"Rack::Test is a small, simple testing API for Rack apps. It can be used on its
+own or as a reusable starting point for Web frameworks and testing libraries
+to build on. Most of its initial functionality is an extraction of Merb 1.0's
+request helpers feature."
+rails,4.1.1,MIT,Full-stack web application framework.,Ruby on Rails is a full-stack web framework optimized for programmer happiness and sustainable productivity. It encourages beautiful code by favoring convention over configuration.
+rails_layout,1.0.18,MIT,Rails generator creates application layout files for Bootstrap and other frameworks.,Generates Rails application layout files for use with various front-end frameworks.
+railties,4.1.1,MIT,"Tools for creating, working with, and running Rails applications.","Rails internals: application bootup, plugins, generators, and rake tasks."
+rake,10.3.2,MIT,Rake is a Make-like program implemented in Ruby,"Rake is a Make-like program implemented in Ruby. Tasks and dependencies are
+specified in standard Ruby syntax.
+
+Rake has the following features:
+
+* Rakefiles (rake's version of Makefiles) are completely defined in
+  standard Ruby syntax.  No XML files to edit.  No quirky Makefile
+  syntax to worry about (is that a tab or a space?)
+
+* Users can specify tasks with prerequisites.
+
+* Rake supports rule patterns to synthesize implicit tasks.
+
+* Flexible FileLists that act like arrays but know about manipulating
+  file names and paths.
+
+* A library of prepackaged tasks to make building rakefiles easier. For example,
+  tasks for building tarballs and publishing to FTP or SSH sites.  (Formerly
+  tasks for building RDoc and Gems were included in rake but they're now
+  available in RDoc and RubyGems respectively.)
+
+* Supports parallel execution of tasks."
+rdoc,4.1.1,ruby,RDoc produces HTML and command-line documentation for Ruby projects,"RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating and displaying documentation
+from the command-line."
+rspec-core,3.0.0,MIT,rspec-core-3.0.0,BDD for Ruby. RSpec runner and example groups.
+rspec-expectations,3.0.0,MIT,rspec-expectations-3.0.0,"rspec-expectations provides a simple, readable API to express expected outcomes of a code example."
+rspec-mocks,3.0.0,MIT,rspec-mocks-3.0.0,"RSpec's 'test double' framework, with support for stubbing and mocking"
+rspec-rails,3.0.1,MIT,rspec-rails-3.0.1,RSpec for Rails
+rspec-support,3.0.0,MIT,rspec-support-3.0.0,Support utilities for RSpec gems
+rubyzip,1.1.4,BSD 2-Clause,rubyzip is a ruby module for reading and writing zip files,""
+sass,3.2.19,MIT,A powerful but elegant CSS compiler that makes CSS fun again.,"Sass makes CSS fun again. Sass is an extension of CSS3, adding
+      nested rules, variables, mixins, selector inheritance, and more.
+      It's translated to well-formatted, standard CSS using the
+      command line tool or a web-framework plugin."
+sass-rails,4.0.3,MIT,Sass adapter for the Rails asset pipeline.,Sass adapter for the Rails asset pipeline.
+sdoc,0.4.0,MIT,rdoc html with javascript search index.,rdoc generator html with javascript search index.
+selenium-webdriver,2.42.0,Apache,The next generation developer focused tool for automated testing of webapps,"WebDriver is a tool for writing automated tests of websites. It aims to mimic the behaviour of a real user, and as such interacts with the HTML of the application."
+sequel,4.12.0,MIT,The Database Toolkit for Ruby,The Database Toolkit for Ruby
+shoulda-matchers,2.6.1,MIT,Making tests easy on the fingers and eyes,Making tests easy on the fingers and eyes
+spring,1.1.3,MIT,Rails application preloader,Rails application preloader
+sprockets,2.11.0,MIT,Rack-based asset packaging system,"Sprockets is a Rack-based asset packaging system that concatenates and serves JavaScript, CoffeeScript, CSS, LESS, Sass, and SCSS."
+sprockets-rails,2.1.3,MIT,Sprockets Rails integration,""
+sqlite3,1.3.9,New BSD,This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org),"This module allows Ruby programs to interface with the SQLite3
+database engine (http://www.sqlite.org).  You must have the
+SQLite engine installed in order to build this module.
+
+Note that this module is only compatible with SQLite 3.6.16 or newer."
+sshkit,1.5.1,GPL3,"SSHKit makes it easy to write structured, testable SSH commands in Ruby",A comprehensive toolkit for remotely running commands in a structured manner on groups of servers.
+thor,0.19.1,MIT,Thor is a toolkit for building powerful command-line interfaces.,Thor is a toolkit for building powerful command-line interfaces.
+thread_safe,0.3.4,Apache 2.0,A collection of data structures and utilities to make thread-safe programming in Ruby easier,Thread-safe collections and utilities for Ruby
+tilt,1.4.1,MIT,Generic interface to multiple Ruby template engines,Generic interface to multiple Ruby template engines
+treetop,1.4.15,MIT,A Ruby-based text parsing and interpretation DSL,""
+turbolinks,2.2.2,MIT,Turbolinks makes following links in your web application faster (use with Rails Asset Pipeline),""
+tzinfo,1.2.1,MIT,Daylight savings aware timezone library,TZInfo provides daylight savings aware transformations between times in different time zones.
+uglifier,2.5.0,MIT,Ruby wrapper for UglifyJS JavaScript compressor,Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible in Ruby
+websocket,1.0.7,other,Universal Ruby library to handle WebSocket protocol,Universal Ruby library to handle WebSocket protocol
+xml-simple,1.1.4,ruby,A simple API for XML processing.,""
+xpath,2.0.0,other,Generate XPath expressions from Ruby,XPath is a Ruby DSL for generating XPath expressions
