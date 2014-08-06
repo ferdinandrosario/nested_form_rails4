@@ -28,6 +28,7 @@ group :development, :test do
   gem 'simplecov'
   gem 'simplecov-rcov'
   gem 'ci_reporter'
+  gem 'flog'
 end
 group :test do
   gem 'capybara'
