@@ -36,3 +36,4 @@ group :test do
   gem 'shoulda-matchers'
   gem 'ci_reporter'
 end
+
