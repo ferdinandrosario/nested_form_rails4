@@ -26,6 +26,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'metric_fu','4.11.1'
   gem 'simplecov'
+  gem 'simplecov-rcov'
+  gem 'ci_reporter'
 end
 group :test do
   gem 'capybara'
@@ -34,5 +36,4 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
-  gem 'ci_reporter'
 end
