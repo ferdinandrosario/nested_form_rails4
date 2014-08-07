@@ -29,6 +29,7 @@ group :development, :test do
   gem 'simplecov-rcov'
   gem 'ci_reporter'
   gem 'flog'
+  gem "rubycritic", :require => false
 end
 group :test do
   gem 'capybara'
