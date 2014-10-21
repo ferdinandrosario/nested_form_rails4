@@ -24,12 +24,13 @@ end
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
-  gem 'metric_fu','4.11.1'
+  gem 'metric_fu'
   gem 'simplecov'
   gem 'simplecov-rcov'
   gem 'ci_reporter'
   gem 'flog'
   gem "rubycritic", :require => false
+  gem 'brakeman', :require => false
 end
 group :test do
   gem 'capybara'
