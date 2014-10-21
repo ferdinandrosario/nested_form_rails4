@@ -18,7 +18,7 @@ development:
   encoding: unicode
   database: nested_form_development
   pool:     5
-  username: postgres
+  username: root
   password: root
   template: template0
 
@@ -47,7 +47,7 @@ test:
   encoding: unicode
   database: nested_form_test
   pool:     5
-  username: postgres
+  username: root
   password: root
   template: template0
 
@@ -57,6 +57,6 @@ production:
   encoding: unicode
   database: nested_form_production
   pool:     5
-  username:
-  password:
+  username: root
+  password: root
   template: template0
